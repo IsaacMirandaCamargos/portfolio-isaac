@@ -1,0 +1,154 @@
+<!DOCTYPE html>             <!--Essa tag diz que vamos usar o html mais recente-->
+<html lang="en">            <!--Essa tag diz que vamos usar a linguagem inglês-->
+
+
+<head>                      <!--O head são das metas informações, conteudos que não sao da pagina em si-->
+    <meta charset="UTF-8">      
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   <!--Compatibilidade-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--Adaptar a tela-->
+    <title>IsaacMirandaCamargos</title> <!--Nome na aba do navegador-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+    crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;600&family=Rubik:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+
+
+<body>
+
+    <!--Criando menu de navegação-->
+    <nav id="start">
+        <ul>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contacts">Contatos</a></li>
+        </ul>
+    </nav>
+
+    <!--Agora vamos criar as seções do site-->
+    <section id="home">
+
+        <h1> 
+            <span>Olá, eu sou o</span>
+            <strong>Isaac Miranda Camargos</strong>
+            <span>e este é meu</span>
+            <strong>portfólio</strong>
+        </h1>
+
+    </section>
+
+    <section id="about">
+
+        <h4>Quem sou eu?</h4>
+        <div class="about-container">
+            <div class="about-image">
+                <img width="300px" src="./assets/me.jpg" alt="Isaac Miranda Camargos"/>
+            </div>
+            <p>Sou um estudante dedicado. Gosto de matematica, quimica, programação, escrever, ler, jogar
+                rpg de mesa, dentre outras coisas. Atualmente, estou ocupado com meu aperfeiçoamento e aprendizado,
+                como estudante anseio por oportunidades de aprender e contribuir com meus conhecimentos.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h4>Meus projetos</h4>
+
+        <div class="container">
+            <a target="_blank" href="https://sistemas.uftm.edu.br/integrado/sistemas/pub/publicacao.html?secao=1417&publicacao=9243" class="card">
+                <div class="image-container">
+                    <img src="https://cdnsjengenhariae.nuneshost.com/wp-content/uploads/2016/03/curso-de-calculo_mini.jpg" 
+                    alt="Monitoria" width="200px"/>
+                    <h6>Monitor</h6>
+                </div>
+                <p>Todo semestre invisto no meu aprendizado e aperfeiçoamento, ja fui monitor de calculo 1, calculo 2 e este semestre tentarei monitoria de calculo 3 na UFTM.</p>
+            </a>
+
+            <a target="_blank" href="https://www.urionlinejudge.com.br/judge/pt/profile/567677" class="card">
+                <div class="image-container">
+                    <img src="https://cio.com.br/wp-content/uploads/2019/06/data-science-ferramentas.jpg" 
+                    alt="Iniciação cientifica" width="200px"/>
+                    <h6>Iniciação cientifica</h6>
+                </div>
+                <p>Com muito esforço e dedicação consegui uma vaga em um projeto de iniciação cientifica com o excelentissimo professor Leandro.</p>
+            </a>
+
+            <a target="_blank" href="https://www.instagram.com/caeq_uftm/" class="card">
+                <div class="image-container">
+                    <img src="./assets/Caeq.jpg" 
+                    alt="Caeq" width="200px"/>
+                    <h6>Caeq</h6>
+                </div>
+                <p>Esse semestre passei no processo seletivo do Caeq (centro academico da engenharia quimica) e entrei para o time, espero fazer um otimo trabalho.</p>
+            </a>
+
+            <a target="_blank" href="https://rpgmaisbarato.com/blog/rpg-de-mesa-origem-como-jogar/" class="card">
+                <div class="image-container">
+                    <img src="https://caixinhaquantica.com.br/wp-content/uploads/2020/11/ST-jogando-RPG-740x414.jpg" 
+                    alt="RPG de mesa" width="200px"/>
+                    <h6>RPG de mesa</h6>
+                </div>
+                <p>Sou um grande fã de RPG de mesa. Para leigos o RPG de mesa consiste em um jogo interpretativo que leva seus jogadores por historias fantasticas, irreprodutiveis por nenhuma tecnologia a não ser pela imaginação.</p>
+            </a>
+
+        </div>
+    </section>
+
+    <section id="contacts">
+        <h4>Contatos</h4>
+
+        <div class="contacts-container">
+
+            <form action="https://formspree.io/f/xbjqpydr" method="POST">
+                <div class="input-container">
+                    <label for="name">Nome e sobrenome</label>
+                    <input id="name" name="name" type="text" placeholder="Seu nome"/>
+                </div>
+                <div class="input-container">
+                    <label for="email">E-mail</label>
+                    <input id="email" name="email" type="email" placeholder="Seu E-mail"/>
+                </div>
+                <div class="text-area-container">
+                    <label for="message">Mensagem</label>
+                    <textarea rows="5" cols="20" name="message" id= message placeholder="Sua mensagem"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        
+
+            <div class="contact-container">
+                <div class="say-hello">
+                    <h5>Diga oi</h5>
+                    <p><i class="fas fa-phone-square-alt"></i> Telefone: (16) 99368 5471</p>
+                </div>
+
+                <div class="email-plus-links">
+                    <p>
+                        <a href="mailto:isaacmirandacamargos@mail.com" class="contacts-email">
+                            <i class="fas fa-envelope-square"></i>
+                            isaacmirandacamargos@gmail.com
+                        </a>
+                    </p>
+                    <ul>
+                        <li><a target="_blank" href="https://www.facebook.com/isaacmirandacamargos.miranda/" rel="noopener" class="fab fa-facebook-square"></a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/channel/UCP8ZJZlBuP7QB_FUX8bdKqg" rel="noopener" class="fab fa-youtube-square"></a></li>
+                        <li><a target="_blank" href="https://github.com/IsaacMirandaCamargos" rel="noopener" class="fab fa-github-square"></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/isaac.camargos/" rel="noopener" class="fab fa-instagram"></a></li>
+                        <li><a target="_blank" href="#" rel="noopener" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button onclick=toTop() id="to-top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
