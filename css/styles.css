@@ -15,8 +15,8 @@
     --primary-color-light: #b095e5;
     --white-color:         #ffffff;
     --p-color:             #dec9e9;
-    --menu-bg-color:       #6247aa;
-    --gray-color:          #dcdcdd;
+    --menu-bg-color:       #5232a8;
+    --gray-color:          #dddde6;
     --light-purple-color:  #c19ee0;
     --dark-color:          #35383a;
     --dark-shadow-color:   #3d3d3d49;
@@ -163,6 +163,7 @@ nav ul li:hover {
 nav ul li a { 
     color: var(--p-color);
 }
+
 
 /* === ESTILIZANDO O HOME === */
 #home {
